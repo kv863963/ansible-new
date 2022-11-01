@@ -1,7 +1,11 @@
 --- 
 - hosts:
   tasks:
-    - name:
-      apt:
-        name: install apache2 
-        state: present
+  - name:
+    apt:
+      name: install apache2 
+      state: presentapt:
+      
+     apt:
+      name: install apache2 
+      state: present
